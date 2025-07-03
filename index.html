@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Weather</h2>
+      <div class="weather-input">
+        <input type="text" name="city" id="city_input" placeholder="Enter City Name" />
+        <button type="button" id="searchBtn"><i class="fas fa-search"></i> Search</button>
+        <button type="button" id="locationBtn"><i class="bx bx-target-lock"></i> Current Location</button>
+      </div>
+    </div>
+
+    <div class="weather-data">
+      <div class="weather-left">
+        <div class="card">
+          <!-- Weather will be injected here -->
+        </div>
+
+        <div class="card">
+          <h2>5 Days Forecast</h2>
+          <div class="day-forecast">
+            <!-- 5-day forecast will be injected here -->
+          </div>
+        </div>
+      </div>
+
+      <div class="weather-right">
+        <h2>Today's Highlight</h2>
+        <div class="highlight">
+          <div class="card aqi-card"></div>
+          <div class="card"></div>
+          <div class="card"><div class="card-head"><p>Humidity</p></div><div class="card-item"><i class="fas fa-tint"></i><h2 id="humidityVal">__%</h2></div></div>
+          <div class="card"><div class="card-head"><p>Pressure</p></div><div class="card-item"><i class="fas fa-tachometer-alt"></i><h2 id="pressureVal">__hpa</h2></div></div>
+          <div class="card"><div class="card-head"><p>Visibility</p></div><div class="card-item"><i class="fas fa-eye"></i><h2 id="visabilityVal">__km</h2></div></div>
+          <div class="card"><div class="card-head"><p>Wind Speed</p></div><div class="card-item"><i class="fas fa-wind"></i><h2 id="windSpeedVal">__m/s</h2></div></div>
+          <div class="card"><div class="card-head"><p>Feels Like</p></div><div class="card-item"><i class="fas fa-thermometer-half"></i><h2 id="feelsVal">__&deg;C</h2></div></div>
+        </div>
+
+        <h2>Today at</h2>
+        <div class="hourly-Forecast"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
