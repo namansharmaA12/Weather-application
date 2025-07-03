@@ -39,3 +39,7 @@ During the development, I faced some issues like CORS errors and incorrect API U
 I learned a lot while working on this project, especially about integrating third-party APIs, handling asynchronous JavaScript with fetch, and designing responsive layouts. I also improved my debugging skills and got more comfortable working with real-time data.
 
 In conclusion, I’m proud of this weather app as it not only demonstrates my technical skills but also provides a useful and interactive experience for users. In future iterations, I’d like to add features like saving favorite cities, switching between Celsius and Fahrenheit, adding animations, and perhaps even a dark/light mode toggle. This project reinforced the importance of clean code, responsive design, and learning how to leverage external tools and APIs to build real-world applications.
+
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/2c2fb764-9d7a-4271-ac89-8f1938e67884)
